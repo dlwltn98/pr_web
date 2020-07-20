@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="portfolio.xsl"?>
+<datalists>
+  <data>
+      <title>웹 페이지 개발 팀 프로젝트</title>
+      <summary>병원 방문전에 예약을 할 수 있는 홈페이지 제작</summary>
+      <date>
+        <start>2018년도 6월 말</start>
+        <end>10월 초</end>
+      </date>
+      <content>DB를 이용하여 의료진 정보와 환자 정보를 관리</content>
+      <content>환자는 병원 방문 일을 예약/조회</content>
+      <content>공지 사항을 올릴 게시판</content>
+      <content>회원가입/수정/탈퇴 기능</content>
+      <completeness>마지막에 방문인 수를 알 수 있는 기능을 구현하고 싶었으나 시간이 부족해서구현하지못하였습니다.
+          하지만 나머지 기능들은 의도한대로 거의 구현되었습니다.</completeness>
+      <tools>PHP, JavaScript, HTML, DB, CSS 등등</tools>
+    </data>
+</datalists>

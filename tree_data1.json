@@ -1,0 +1,63 @@
+[{
+	"id":1,
+	"text":"시간표",
+	"children":[{
+		"id":11,
+		"text":"1학년",
+		"state":"closed",
+		"children":[{
+			"id":111,
+			"text":"A반"
+		},{
+			"id":112,
+			"text":"B반"
+		},{
+			"id":113,
+			"text":"C반"
+		}]
+	},{
+		"id":12,
+		"text":"2학년",
+		"state":"closed",
+		"children":[{
+			"id":121,
+			"text":"A반"
+		},{
+			"id":122,
+			"text":"B반",
+			"attributes":{
+				"p1":"Custom Attribute1",
+				"p2":"Custom Attribute2"
+			}
+		},{
+			"id":123,
+			"text":"C반"
+		}]
+	},{
+		"id":12,
+		"text":"3학년",
+		"state":"closed",
+		"children":[{
+			"id":121,
+			"text":"A반"
+		},{
+			"id":122,
+			"text":"B반",
+			"attributes":{
+				"p1":"Custom Attribute1",
+				"p2":"Custom Attribute2"
+			}
+		},{
+			"id":123,
+			"text":"C반"
+		}]
+	},{
+		"id":12,
+		"text":"4학년",
+		"state":"closed",
+		"children":[{
+			"id":121,
+			"text":"X반"
+		}]
+	}]
+}]

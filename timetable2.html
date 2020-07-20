@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1 , shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Lee_jisu</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="themes/default/easyui.css">
+  	<link rel="stylesheet" type="text/css" href="themes/icon.css">
+  	<link rel="stylesheet" type="text/css" href="demo.css">
+  	<script type="text/javascript" src="js/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/jquery.easyui.min.js"></script>
+  </head>
+  <body>
+    <a href="home.html"><img src="images/logo1.png" alt="home_logo" style="width:300px; height:100px; margin-bottom:20px; margin-left:10px;"></a>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="introdu.html">introduction</a></li>
+            <li class="dropdown">
+              <a href="study_j.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                aria-haspopup="true" aria-expanded="false">study(JavaScript)<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="study_j.html">JavaScript란?</a></li>
+                <li><a href="study_j2.html">JavaScript의 역사</a></li>
+                <li><a href="study_j3.html">JavaScript의 활용</a></li>
+              </ul>
+            </li>
+            <li><a href="board.html">Study_Board</a></li>
+            <li class="active"><a href="timetable.html">2020 TimeTable</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="login.html">로그인</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="easyui-panel" style="padding:5px; width:150px;">
+      <ul class="easyui-tree" data-options="url:'tree_data1.json',method:'get',animate:true"></ul>
+    </div>
+  </body>
+</html>
